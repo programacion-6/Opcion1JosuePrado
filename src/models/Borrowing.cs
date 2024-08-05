@@ -1,7 +1,7 @@
 namespace Opcion1JosuePrado.src.models;
 public class Borrowing
 {
-    private string BookTitle { get; set; }
-    private string PatronName { get; set; }
-    private DateTime DueDate { get; set; }
+    public string BookTitle { get; set; }
+    public string PatronName { get; set; }
+    public DateTime DueDate { get; set; }
 }

@@ -1,7 +1,7 @@
 namespace Opcion1JosuePrado.src.models;
-public class Patron 
+public class Patron
 {
-    private string Name  { get; set; }
-    private int MembershipNumber  { get; set; }
-    private string ContactDetails  { get; set; }
+    public string Name  { get; set; }
+    public string MembershipNumber  { get; set; }
+    public string ContactDetails  { get; set; }
 }
